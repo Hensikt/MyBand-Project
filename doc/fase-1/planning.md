@@ -5,7 +5,7 @@ Deze planning is een levend document (blijven aanpassen aan de werkelijke situat
 
 (je mag ook een eigen planningstool gebruiken, zo lang je hier je planning maar deelt)
 
-*Dit is versie 0.0*
+*Dit is versie 1.0*
 
 ##### WEEK 1
 |         | ma 6/5 | di 7/5 | wo 8/5 | do 9/5 | vr 10/5 | weekend |
