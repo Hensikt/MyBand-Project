@@ -11,21 +11,28 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 
 | # | Als een ... | Wil ik ... | Zodat ik ... | Notities | Prioriteit | Status |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| U0001 | Gebruiker | de laatste nieuwberichten zien | op de hoogte kom van wat er is gebeurd | | Must have | TODO |
-| U0002 | Gebruiker | een account aanmaken | toegang krijg tot extra features | | Must have | TODO |
+| U0001 | Gebruiker | de laatste toegevoegde mytisch wezen zien | Kan zien of er nieuwe wezens zijn | Eis | Must have | TODO |
+| U0002 | Gebruiker | Kunnen zien wie de pagina heeft gemaakt/beheerd | Kan weten of de pagina betrouwbaar is | Eis | Should have | TODO |
+| U0003 | Gebruiker | Kunnen zoeken op bepaalde tags/categorieen | Gericht kan zoeken op het gene wat ik leuk vindt | Eis | Must have | TODO |
+| U0004 | Gebruiker | Kunnen registreren | Wezens kan toevoegen/beheren | Eis | Must have | TODO |
+| U0005 | Gebruiker |  | |  |  |
 
 
 ###### Geregistreerde gebruikers
 | # | Als een ... | Wil ik ... | Zodat ik ... | Notities | Prioriteit | Status |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| G0001 | Geregistreerd gebruiker | mijn profiel foto kunnen aanpassen | zodat ik mezelf goed kan presenteren | | Must have | TODO |
+| G0001 | Geregistreerd gebruiker | wezens kunnen toevoegen | bij kan dragen aan de pagina | | Must have | TODO |
+| G0002 | Geregistreerd gebruiker | Kunnen inloggen | mijn eigen toegevoegde wezens kan beheeren | | Must have | TODO |
+| G0003 | Geregistreerd gebruiker |  | |  |  |
 
 
-##### Admins
+######  x Admins
 | # | Als een ... | Wil ik ... | Zodat ik ... | Notities | Prioriteit | Status |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| B0001 | Admin | een overzicht van alle gebruikers | zodat ik deze kan beheren | | Must have | TODO |
-| B0002 | Admin | een account kunnen disablen | zodat ik controle heb over wie er in kan loggen | | Must have | TODO |
+| B0001 | Admin | Wezens toevoegen | mijn pagina up to date houden | Eis | Must have | TODO |
+| B0002 | Admin | Wezens kunnen verwijderen | onaccuraten wezens kan verwijderen | Via de pagina | Must have | TODO |
+| B0003 | Admin | Geregistreerde gebruikers kunnen verwijderen | Kan beheren wanneer mensen ongepast zijn | | Should have | TODO |
+| B0004 | Admin |  |  | |  |  |
 
 
 
