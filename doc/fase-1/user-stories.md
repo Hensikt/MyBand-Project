@@ -24,7 +24,8 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | G0001 | Geregistreerd gebruiker | wezens kunnen toevoegen | bij kan dragen aan de pagina | | Must have | TODO |
 | G0002 | Geregistreerd gebruiker | Kunnen inloggen | mijn eigen toegevoegde wezens kan beheeren | | Must have | TODO |
-| G0003 | Geregistreerd gebruiker |  | |  |  |
+| G0003 | Geregistreerd gebruiker |  |  | |  |  |
+| G0004 | Geregistreerd gebruiker |  |  | |  |  |  
 
 
 ######  x Admins
