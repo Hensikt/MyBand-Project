@@ -15,7 +15,8 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 | U0002 | Gebruiker | Kunnen zien wie de pagina heeft gemaakt/beheerd | Kan weten of de pagina betrouwbaar is | Eis | Should have | TODO |
 | U0003 | Gebruiker | Kunnen zoeken op bepaalde tags/categorieen | Gericht kan zoeken op het gene wat ik leuk vindt | Eis | Must have | TODO |
 | U0004 | Gebruiker | Kunnen registreren | Wezens kan toevoegen/beheren | Eis | Must have | TODO |
-| U0005 | Gebruiker |  | |  |  |
+| U0005 | Gebruiker | De pagina ook op mijn mobiel kunnen gebruiken | Ook onderweg kan lezen welke wezens er zijn | Eis | Must have | TODO |
+| U0006 | Gebruiker |  |  | |  |  |
 
 
 ###### Geregistreerde gebruikers
