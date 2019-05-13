@@ -28,10 +28,10 @@ Deze fase duurt 3 weken
 | B1-K1-W2 Planning                                 | Done | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | Done | [Plan van Aanpak]                    | Markdown of Word/RTF|
 | B1-K1-W2 User stories                             | Doing | [User Stories]                       | Markdown of Word/RTF|
-| B1-K1-W2 Functioneel ontwerp                      | Doing | [FO]                                 | Markdown of Word/RTF|
+| B1-K1-W2 Functioneel ontwerp                      | Done | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | Done | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | Done | [Urenschatting]                      | Markdown |
-| B1-K1-W2 Wireframes en/of Interactief prototype   | Doing | [axShare]                            | Axshare link of link naar ander online prototype tool |
+| B1-K1-W2 Wireframes en/of Interactief prototype   | Done | [axShare]                            | Axshare link of link naar ander online prototype tool |
 | B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
