@@ -31,7 +31,7 @@ Deze fase duurt 3 weken
 | B1-K1-W2 Functioneel ontwerp                      | Done | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | Done | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | Done | [Urenschatting]                      | Markdown |
-| B1-K1-W2 Wireframes en/of Interactief prototype   | Done | [Wireframe]                            | Axshare link of link naar ander online prototype tool |
+| B1-K1-W2 Wireframes en/of Interactief prototype   | Done | [Wireframe]                           | Axshare link of link naar ander online prototype tool |
 | B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
@@ -39,12 +39,12 @@ Deze fase duurt 3 weken
 [Debriefing]: <doc/fase-1/debriefing.md>
 [Planning]: <doc/fase-1/planning.md>
 [Plan van Aanpak]: <doc/fase-1/plan-van-aanpak.md>
-[User stories]: <doc/fase-1/user-stories.md>
+[User stories]: <doc/fase-1/Functioneel-ontwerp/user-stories.md>
 [Design]: <doc/fase-1/design/design.md/>
 [FO]: </doc/fase-1/functioneel-ontwerp.md>
-[Flow]: <doc/fase-1/flow.svg>
+[Flow]: <doc/fase-1/Functioneel-ontwerp/flowchart.rp>
 [Urenschatting]: <doc/fase-1/urenschatting.md>
-[axShare]: <http://w2d1bw.axshare.com/>
+[Wireframe]: <doc/fase-1/Functioneel-ontwerp/Wireframe.rp>
 
 #### Fase 2: Realiseren van de opdracht (in sprints)
 
