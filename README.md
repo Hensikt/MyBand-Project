@@ -40,7 +40,7 @@ Deze fase duurt 3 weken
 [Planning]: <doc/fase-1/planning.md>
 [Plan van Aanpak]: <doc/fase-1/plan-van-aanpak.md>
 [User stories]: <doc/fase-1/Functioneel-ontwerp/user-stories.md>
-[Design]: <doc/fase-1/design/design.md/>
+[Design]: <doc/fase-1/design/Sfeer.ai/>
 [FO]: </doc/fase-1/functioneel-ontwerp.md>
 [Flow]: <doc/fase-1/Functioneel-ontwerp/flowchart.rp>
 [Urenschatting]: <doc/fase-1/urenschatting.md>
