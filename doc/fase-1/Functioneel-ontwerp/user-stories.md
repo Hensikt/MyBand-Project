@@ -16,7 +16,9 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 | U0003 | Gebruiker | Kunnen zoeken op bepaalde tags/categorieen | Gericht kan zoeken op het gene wat ik leuk vindt | Eis | Must have | TODO |
 | U0004 | Gebruiker | Kunnen registreren | Wezens kan toevoegen/beheren | Eis | Must have | TODO |
 | U0005 | Gebruiker | De pagina ook op mijn mobiel kunnen gebruiken | Ook onderweg kan lezen welke wezens er zijn | Eis | Must have | TODO |
-| U0006 | Gebruiker |  |  | |  |  |
+| U0006 | Gebruiker | De contact pagina kunnen bereiken | Kan kijken wie er mee heeft geholpen aan dit project en ik die mogelijk kan berieken | Eis | Must have | TODO |
+| U0007 | Gebruiker |  |  |  |  |  |
+| U0008 | Gebruiker |  |  |  |  |  |
 
 
 ###### Geregistreerde gebruikers
@@ -35,6 +37,7 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 | B0002 | Admin | Wezens kunnen verwijderen | onaccuraten wezens kan verwijderen | Via de pagina | Must have | TODO |
 | B0003 | Admin | Geregistreerde gebruikers kunnen verwijderen | Kan beheren wanneer mensen ongepast zijn | | Should have | TODO |
 | B0004 | Admin |  |  | |  |  |
+| B0005 | Admin |  |  | |  |  |
 
 
 
