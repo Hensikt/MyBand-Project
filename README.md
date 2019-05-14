@@ -23,7 +23,7 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
-| README                                            | Ongoing | [README.md]  (dit document)          | MarkDown |
+| README                                            | Ongoing  | [README.md]  (dit document)          | MarkDown |
 | B1-K1-W1 Debriefing                               | Done | [Debriefing]                         | Markdown |
 | B1-K1-W2 Planning                                 | Done | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | Done | [Plan van Aanpak]                    | Markdown of Word/RTF|

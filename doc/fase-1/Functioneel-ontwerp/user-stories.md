@@ -36,8 +36,9 @@ Dit mag hier ook als los spreadsheet bestand worden neergezet.
 | B0001 | Admin | Wezens toevoegen | mijn pagina up to date houden | Eis | Must have | TODO |
 | B0002 | Admin | Wezens kunnen verwijderen | onaccuraten wezens kan verwijderen | Via de pagina | Must have | TODO |
 | B0003 | Admin | Geregistreerde gebruikers kunnen verwijderen | Kan beheren wanneer mensen ongepast zijn | | Should have | TODO |
-| B0004 | Admin |  |  | |  |  |
+| B0004 | Admin | Mijn Toevoegingen kunnen categorizeren | Het aan de juiste categorie kan toevoegen | | Must have | TODO |
 | B0005 | Admin |  |  | |  |  |
+| B0006 | Admin |  |  | |  |  |
 
 
 
