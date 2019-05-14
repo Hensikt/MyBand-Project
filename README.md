@@ -23,11 +23,11 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
-| README                                            | TODO | [README.md]  (dit document)          | MarkDown |
+| README                                            | Ongoing | [README.md]  (dit document)          | MarkDown |
 | B1-K1-W1 Debriefing                               | Done | [Debriefing]                         | Markdown |
 | B1-K1-W2 Planning                                 | Done | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | Done | [Plan van Aanpak]                    | Markdown of Word/RTF|
-| B1-K1-W2 User stories                             | Doing | [User Stories]                       | Markdown of Word/RTF|
+| B1-K1-W2 User stories                             | Ongoing | [User Stories]                       | Markdown of Word/RTF|
 | B1-K1-W2 Functioneel ontwerp                      | Done | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | Done | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | Done | [Urenschatting]                      | Markdown |
