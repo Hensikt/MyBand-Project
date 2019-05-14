@@ -32,7 +32,7 @@ Deze fase duurt 3 weken
 | B1-K1-W2 Flowchart                                | Done | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | Done | [Urenschatting]                      | Markdown |
 | B1-K1-W2 Wireframes en/of Interactief prototype   | Done | [Wireframe]                           | Axshare link of link naar ander online prototype tool |
-| B1-K1-W2 Sfeer impressie / schermontwerpen        | TODO | [Design]                             | Afbeeldingen |
+| B1-K1-W2 Sfeer impressie / schermontwerpen        | Doing | [Design]                             | Afbeeldingen |
 
 [Kwalificatiedossier]: https://kwalificaties.s-bb.nl/Handlers/DocumentLibrary.ashx?id=276758
 [README.md]: <https://github.com/JouwGithubNaam/myband/blob/master/README.md>
