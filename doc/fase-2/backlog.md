@@ -1,5 +1,5 @@
-###### Sprint 1
-| Item | Prioriteit | Size (uren) | Sprint | Status |
+##### Backlog
+| Item | Prioriteit | Size (T-shirt) | Sprint | Status |
 | ------ | ------ | ------ | ------ | ------ |
 | Home page | High | M | 1 | TODO |
 | Contact page | High | M | 1 | TODO |  
