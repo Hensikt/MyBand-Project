@@ -14,3 +14,4 @@
 | Items kunnen categorizeren | Medium | M | 2 | TODO |
 | Kunnen zoeken op categorieën/tags | Medium | L | 2 | TODO |   
 | Responsiveness | High | S | 3 | TODO |
+| Laatste CSS/HTML/PHP/Script verbeteringen | Low | M | 3 | TODO |
