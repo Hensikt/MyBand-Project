@@ -1,0 +1,59 @@
+/*Generale css*/
+body{
+    margin: 0;
+    padding: 0;
+}
+body a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+nav a{
+    color: black;
+}
+
+/*classes*/
+.container {}
+
+.navbar {
+    background-color: #dfd8bf;
+}
+.navbar-nav {
+    background-color: #e3dac9;
+    text-align: right;
+    padding-bottom: .3em;
+    font-size: 18px;
+}
+.navbar-nav a{
+    padding-right: 1em;
+}
+.navbar-nav li{
+    padding: .3em;
+}
+.navbar-nav li:hover{
+    background-color: silver;
+}
+.active{
+    background-color: silver;
+    border-bottom: 1px solid red;
+}
+.navbar-input {
+    text-align: right;
+    padding-right: 1em;
+}
+.navbar-img {
+    margin: auto;
+}
+.navbar-items {}
+.nav-item {}
+
+.navbar-search {}
+.nav-link {}
+.login {}
+
+
+/*id's*/
+
