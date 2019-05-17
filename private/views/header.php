@@ -11,7 +11,7 @@
     <title>Mt Pantheon</title>
 </head>
 <body>
-<div class="container">
+<div class="nav-container">
     <nav class="navbar">
         <div class="navbar-items">
             <div class="navbar-img">
@@ -37,5 +37,22 @@
         </div>
     </nav>
 </div>
+<div class="container">
+    <div class="intro">
+        <div class="tekst">
+            <h1>Dit is een titel</h1>
+            <p>Dit is een beetje tekst</p>
+        </div>
+    </div>
+</div>
+    <div class="About-Us">
+        <p>Dit is een beejte tekst</p>
+    </div>
+    <div class="CYP">
+
+    </div>
+</div>
+
+
 </body>
 </html>

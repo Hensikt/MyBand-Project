@@ -2,11 +2,15 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #dfd8bf;
 }
 body a {
     text-decoration: none;
 }
-
+div{
+    margin: 0;
+    padding: 0;
+}
 nav li {
     list-style-type: none;
     display: inline;
@@ -16,8 +20,50 @@ nav a{
 }
 
 /*classes*/
-.container {}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto;
+    margin-top: -1.1em;
+}
+.container-nav{
+    margin: 0;
+}
+.intro{
+    display: grid;
+    grid-template-rows: 30vh 30vh 30vh;
+    height: auto;
+    width: 100vw;
+    background: url("../images/Painting.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.tekst{
+    grid-row: 3/3;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    margin: 1em auto 1em 1em; /* top, right, bottom, left */
+    background-color: #fffcf0;
+}
+.tekst h1, p{
+    padding: auto;
+    margin-left: .4em;
+}
+.About-Us{
+    height: auto;
+    width: 100vw;
+    background: url("../images/About.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+
+/* Css Navbar*/
 .navbar {
     background-color: #dfd8bf;
 }
@@ -52,6 +98,7 @@ nav a{
 .navbar-search {}
 .nav-link {}
 .login {}
+/*----------------------------------------------*/
 
 
 /*id's*/
