@@ -34,7 +34,7 @@ nav a{
     grid-template-rows: 30vh 30vh 30vh;
     height: auto;
     width: 100vw;
-    background: url("../images/Painting.jpg") no-repeat center center;
+    background: url("../images/About.svg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ nav a{
     margin-left: .4em;
 }
 .About-Us{
-    height: auto;
+    height: 15vh;
     width: 100vw;
     background: url("../images/About.jpg") no-repeat center center;
     -webkit-background-size: cover;
