@@ -9,5 +9,4 @@ $config = [
     'PRIVATE' => dirname(__DIR__) . '/private',
     'WEBROOT' => dirname(__DIR__) . '/public',
 ];
-
 return $config;
