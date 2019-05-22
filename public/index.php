@@ -36,9 +36,9 @@ $uri = parse_url($full_uri, PHP_URL_PATH);
 
 define('HOME_URL', $parts['dirname']);
 
-require "../private/functions.php";
-require "../private/model.php";
-require "../private/controllers.php";
+require "../private/includes/functions.php";
+require "../private/models/model.php";
+require "../private/controllers/controllers.php";
 
 // Check the URI information en call the right "controller" script
 if ('/' === $uri) {
