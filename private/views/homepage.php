@@ -6,32 +6,6 @@
  * Time: 09:14
  */
 ?>
-<div class="nav-container">
-    <nav class="navbar">
-        <div class="navbar-items">
-            <div class="navbar-img">
-                <img src="#" alt="#">
-            </div>
-            <div class="navbar-input">
-                <input class="navbar-search" type="text" placeholder="Search bar">
-            </div>
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="header.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pantheons</a>
-                </li>
-                <li class="nav-item login">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
 <div class="container">
     <div class="intro">
         <div class="tekst">
@@ -58,9 +32,8 @@
             <option value="Maya"></option>
             <option value="Inca"></option>
             <option value="Rigvedic"></option>
-
         </select>
     </form>
 
 </div>
-</div>
+
