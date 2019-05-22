@@ -1,4 +1,5 @@
 <?php
+$connection = dbConnect();
 ?>
 <!DOCTYPE html>
 <html lang="nl" dir="ltr">
