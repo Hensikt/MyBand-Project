@@ -1,5 +1,5 @@
 <?php
-require  __DIR__ . '';
+require  __DIR__ . '../includes/functions.php';
 $connection = dbConnect();
 ?>
 <!DOCTYPE html>
