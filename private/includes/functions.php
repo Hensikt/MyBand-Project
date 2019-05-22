@@ -1,8 +1,8 @@
 <?php
-function url_to($path)
-{
-    return HOME_URL . $path;
-}
+//function url_to($path)
+//{
+//    return HOME_URL . $path;
+//}
 function dbConnect($config)
 {
 
