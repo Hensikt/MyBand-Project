@@ -28,22 +28,4 @@
  *
  */
 
-// ALL requests are handle here now, so we have to determine WHICH controller to call, based on the URL that was requested
-$parts = pathinfo($_SERVER['SCRIPT_NAME']);
-$script_name = $_SERVER['SCRIPT_NAME']; // = app.php
-$full_uri = str_replace($parts['dirname'], '', $_SERVER['REQUEST_URI']);
-$uri = parse_url($full_uri, PHP_URL_PATH);
-
-define('HOME_URL', $parts['dirname']);
-
-require "../private/includes/functions.php";
-require "../private/models/models.php";
-require "../private/controllers/controllers.php";
-
-// Check the URI information en call the right "controller" script
-if ('/' === $uri) {
-    homepage_action();
-} elseif ('/homepage' === $uri) {
-    generate_name_action();
-}
 
