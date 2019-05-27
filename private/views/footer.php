@@ -6,5 +6,6 @@
  * Time: 09:13
  */
 ?>
+<script src="js/script.js"></script>
 </body>
 </html>
