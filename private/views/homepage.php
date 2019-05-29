@@ -9,8 +9,8 @@
 <div class="container">
     <div class="intro">
         <div class="tekst">
-            <h1>Dit is een titel</h1>
-            <p>Dit is een beetje tekst</p>
+            <h1>Pantheons</h1>
+            <p>Vroeger waren er meer religies dan we nu hebben, op deze pagina vindt u de grootste en belangrijkste van de geschiedenis.</p>
         </div>
     </div>
 </div>
