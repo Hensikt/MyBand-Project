@@ -41,12 +41,12 @@
             </div>
 
             <div class="mySlides fade">
-                <img src="img2.jpg" style="width:100%">
+                <img src="images/Celtic.jpg" style="width:100%">
                 <div class="text">Celtic</div>
             </div>
 
             <div class="mySlides fade">
-                <img src="img3.jpg" style="width:100%">
+                <img src="images/Egyptian.jpg" style="width:100%">
                 <div class="text">Egyptian</div>
             </div>
 
