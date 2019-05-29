@@ -34,9 +34,8 @@
         </select>
 
         <div class="Slideshow-container">
-            <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-                <img src="images/aztec.png">
+                <img src="images/Aztec.png">
                 <div class="text">Aztec</div>
             </div>
 
@@ -49,6 +48,36 @@
                 <img src="images/Egyptian.jpg" style="width:100%">
                 <div class="text">Egyptian</div>
             </div>
+			
+			<div class="mySlides fade">
+				<img src="images/Greek.jpg" style="width:100%">
+				<div class="text">Greek</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/Hindu.jpg" style="width:100%">
+				<div class="text">Hindu</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/Incan.jpg" style="width:100%">
+				<div class="text">Incan</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/Maya.jpg" style="width:100%">
+				<div class="text">Maya</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/Norse.jpg" style="width:100%">
+				<div class="text">Norse</div>
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="images/Rigvedic.jpg" style="width:100%">
+				<div class="text">Rigvedic</div>
+			</div>
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -56,7 +85,7 @@
         </div>
         <br>
 
-        <!-- The dots/circles -->
+        <!-- Dots/circles -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
