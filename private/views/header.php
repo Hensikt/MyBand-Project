@@ -20,10 +20,10 @@
             </div>
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="header.php">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="About-Us">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pantheons</a>
@@ -35,3 +35,4 @@
         </div>
     </nav>
 </div>
+
