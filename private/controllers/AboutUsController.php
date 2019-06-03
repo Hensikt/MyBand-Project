@@ -2,7 +2,7 @@
 
 class AboutUsController{
 
-	function About_Us(){
+	function AboutUs(){
 		
 		include __DIR__ . "/../views/header.php";
 		include __DIR__ . "/../views/About-Us.php";

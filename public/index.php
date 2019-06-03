@@ -49,7 +49,7 @@ $router->setBasePath('/MyBand-Starter/public');
  */
 
 $router->map( 'GET', '/', 'HomeController#homepage', 'Home-page' );
-$router->map( 'GET', '/About-Us', 'AboutUsController#About-Us', 'About-Us');
+$router->map( 'GET', '/AboutUs', 'AboutUsController#AboutUs', 'AboutUs');
 $router->map( 'GET', '/Contacts', 'ContactController#Contacts', 'Contact-Page' );
 $router->map( 'GET', '/Pantheons', 'PantheonController#Pantheons', 'MountOlympus' );
 
