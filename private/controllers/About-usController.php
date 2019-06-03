@@ -1,6 +1,7 @@
 <?php
 
 class About_usController{
+
 	function About_Us(){
 		
 		include __DIR__ . "/../views/header.php";
