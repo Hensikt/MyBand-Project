@@ -48,7 +48,7 @@ $router->setBasePath('/MyBand-Starter/public');
  * We vertellen de router welke url naar welk stukje code (de controller) moet worden doorgestuuurd.
  */
 
-$router->map( 'GET', '/', 'HomeController#homepage', 'Home-page' );
+$router->map( 'GET', '/home', 'HomeController#homepage', 'Home-page' );
 $router->map( 'GET', '/AboutUs', 'AboutUsController#AboutUs', 'AboutUs');
 $router->map( 'GET', '/Contacts', 'ContactController#Contacts', 'Contact-Page' );
 $router->map( 'GET', '/Pantheons', 'PantheonController#Pantheons', 'MountOlympus' );
