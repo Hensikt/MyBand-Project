@@ -5,11 +5,12 @@
  * Date: 2019-05-22
  * Time: 13:37
  */
+
 function open_connection()
 {
     // Connection to the database: localhost
-    $config = require __DIR__ . '../includes/config.php';
-    $connection = new PDO("mysql:host=" . $config['db_host'] . ";dbname=" . $config['db_name'], $config['db_user'], $config['db_password']);
+    $config = require __DIR__ . '/../includes/config.php';
+    $connection = new PDO("mysql:host=" . $config['DB_HOST'] . ";dbname=" . $config['DB_NAME'], $config['DB_USER'], $config['DB_PASSWORD']);
 
     return $connection;
 }
