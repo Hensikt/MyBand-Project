@@ -20,22 +20,22 @@
         display <br> information about your subject,<br> i chose for the acient Pantheons becuase <br> i read a lot of mythologie in my free time.</p>
 </div>
 <div class="CYP">
-    <form action="">
-        <select name="Pantheons" id="pant">
-            <option value="Aztec">Aztec</option>
-            <option value="Celtic">Celtic</option>
-            <option value="Egyptian">Egyptian</option>
-            <option value="Greek">Greek</option>
-            <option value="Hindu">Hindu</option>
-            <option value="Incan">Incan</option>
-            <option value="Maya">Maya</option>
-            <option value="Norse">Norse</option>
-            <option value="Rigvedic">Rigvedic</option>
-        </select>
+<!--    <form action="">-->
+<!--        <select name="Pantheons" id="pant">-->
+<!--            <option value="Aztec">Aztec</option>-->
+<!--            <option value="Celtic">Celtic</option>-->
+<!--            <option value="Egyptian">Egyptian</option>-->
+<!--            <option value="Greek">Greek</option>-->
+<!--            <option value="Hindu">Hindu</option>-->
+<!--            <option value="Incan">Incan</option>-->
+<!--            <option value="Maya">Maya</option>-->
+<!--            <option value="Norse">Norse</option>-->
+<!--            <option value="Rigvedic">Rigvedic</option>-->
+<!--        </select>-->
 
         <div class="Slideshow-container">
-            <div class="mySlides fade">
-                <img src="images/Aztec.png">
+            <div class="mySlides">
+                <img src="images/aztec.png">
                 <div class="text">Aztec</div>
             </div>
 
