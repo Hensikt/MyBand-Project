@@ -6,7 +6,7 @@
  * Time: 09:14
  */
 
-open_connection();
+$connection = dbConnect();
 ?>
 <div class="container">
     <div class="intro">
@@ -35,51 +35,19 @@ open_connection();
 <!--            <option value="Rigvedic">Rigvedic</option>-->
 <!--        </select>-->
 
+
         <div class="Slideshow-container">
-            <div class="mySlides">
-                <img src="images/aztec.png">
-                <div class="text">Aztec</div>
-            </div>
-
-            <div class="mySlides fade">
-                <img src="images/Celtic.jpg" style="width:100%">
-                <div class="text">Celtic</div>
-            </div>
-
-            <div class="mySlides fade">
-                <img src="images/Egyptian.jpg" style="width:100%">
-                <div class="text">Egyptian</div>
-            </div>
-			
-			<div class="mySlides fade">
-				<img src="images/Greek.jpg" style="width:100%">
-				<div class="text">Greek</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="images/Hindu.jpg" style="width:100%">
-				<div class="text">Hindu</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="images/Incan.jpg" style="width:100%">
-				<div class="text">Incan</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="images/Maya.jpg" style="width:100%">
-				<div class="text">Maya</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="images/Norse.jpg" style="width:100%">
-				<div class="text">Norse</div>
-			</div>
-			
-			<div class="mySlides fade">
-				<img src="images/Rigvedic.jpg" style="width:100%">
-				<div class="text">Rigvedic</div>
-			</div>
+            <?php
+            $sql = "SELECT * FROM `foto's` ORDER BY `id`";
+            $stmt = $connection->query($sql);
+            foreach ($stmt as $record) {
+                echo "<div class='mySlides fade'>" .
+                    "<img src='images/" . $record['name'] ."'>" .
+                    "<div class='text'>" . $record['text'] .
+                    "</div>" .
+                    "</div>";
+            }
+            ?>
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -99,7 +67,3 @@ open_connection();
             <span class="dot" onclick="currentSlide(8)"></span>
             <span class="dot" onclick="currentSlide(9)"></span>
         </div>
-        </div>
-    </form>
-
-</div>
