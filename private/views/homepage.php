@@ -22,39 +22,25 @@ $connection = dbConnect();
         display <br> information about your subject,<br> i chose for the acient Pantheons becuase <br> i read a lot of mythologie in my free time.</p>
 </div>
 <div class="CYP">
-<!--    <form action="">-->
-<!--        <select name="Pantheons" id="pant">-->
-<!--            <option value="Aztec">Aztec</option>-->
-<!--            <option value="Celtic">Celtic</option>-->
-<!--            <option value="Egyptian">Egyptian</option>-->
-<!--            <option value="Greek">Greek</option>-->
-<!--            <option value="Hindu">Hindu</option>-->
-<!--            <option value="Incan">Incan</option>-->
-<!--            <option value="Maya">Maya</option>-->
-<!--            <option value="Norse">Norse</option>-->
-<!--            <option value="Rigvedic">Rigvedic</option>-->
-<!--        </select>-->
-
-
         <div class="Slideshow-container">
             <?php
-            $sql = "SELECT * FROM `foto's` ORDER BY `id`";
+            $sql = "SELECT * FROM `fotos` ORDER BY `id`";
             $stmt = $connection->query($sql);
             foreach ($stmt as $record) {
                 echo "<div class='mySlides fade'>" .
                     "<img src='images/" . $record['name'] ."'>" .
                     "<div class='text'>" . $record['text'] .
                     "</div>" .
+                    "<div class='desc'>" . $record['About'] . "<a href='#'>" ." Lees meer ". "</a>" .
+                    "</div>" .
                     "</div>";
             }
             ?>
-
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <br>
-
         <!-- Dots/circles -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>

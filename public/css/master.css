@@ -92,6 +92,7 @@ nav a {
 .CYP {
     width: 100vw;
     height: 50vh;
+    background-color: #e3dac9;
 }
 
 
@@ -153,17 +154,19 @@ nav a {
 .Slideshow-container img {
     grid-column: 2/2;
     margin: auto;
+    margin-top: 1.5em;
 }
 
 /* Slideshow container */
 .Slideshow-container {
     position: relative;
-    margin-top: 2em;
 }
 
 /* Hide the images by default */
 .mySlides {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 38vh auto;
 }
 
 /* Next & previous buttons */
@@ -196,11 +199,16 @@ nav a {
 /* Caption text */
 .text {
     color: black;
-    font-size: 15px;
-    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: bold;
     position: absolute;
-    bottom: 8px;
     width: 100%;
+    text-align: center;
+    grid-row: 1/1;
+}
+.desc{
+    grid-row: 2/2;
+    grid-column: 2/2;
     text-align: center;
 }
 
