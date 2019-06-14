@@ -5,7 +5,8 @@ $connection = dbConnect();
 
 </div>
 <div class="About-Us main">
-
+    <h2 class="title">About Us</h2>
+     <p class="description"><?php echo get_info(1) ?></p>
 </div>
 <div class="Ab-contact">
     <?php
@@ -14,10 +15,10 @@ $connection = dbConnect();
     foreach ($stmt as $record) {
         echo "<div class='Contact-container'>" .
              "<div class='Conctact-information'>" .
-             "<p class='C-info'   >" . " Name: " . $record['name'] . "<br>"
+             "<p class='C-info'>" . " Name: " . $record['name'] . "<br>"
               . " E-mail: " . $record['email'] . "<br>"
               . " Phonenumber: " . $record['number'] . "<br>"
-              . " Own Website: " . "<a href='http://bjornemmaneel.nl/'>". $record['website'] ."</a>". "</p>" .
+              . " Own Website: " . "<a href='". $record['website'] . "'>". $record['website'] ."</a>". "</p>" .
              "</div>" .
              "</div>";
     }

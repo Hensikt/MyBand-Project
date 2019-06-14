@@ -96,8 +96,25 @@ nav a {
 }
 /* ------------------Css Contact------------------ */
 .Ab-contact{
+    display: grid;
+    border: black 1px solid;
     float: right;
-    margin: auto 2em auto auto; /* top, right, bottom, left */
+    width: 100vw;
+    background: url("../images/Contact.png") no-repeat center center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.Contact-container{
+    margin: auto 2em;
+    grid-column: 3/3;
+}
+.About-Us{
+    border: black 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.description{
+    grid-column: 1/1;
 }
 /* ----------------------------------------------- */
 
