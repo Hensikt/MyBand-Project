@@ -100,12 +100,13 @@ nav a {
     border: black 1px solid;
     float: right;
     width: 100vw;
+    height: 250px;
     background: url("../images/Contact.png") no-repeat center center;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
 .Contact-container{
-    margin: auto 2em;
+    margin: auto 3em;
     grid-column: 3/3;
 }
 .About-Us{
@@ -171,8 +172,7 @@ nav a {
 }
 
 /*----------------------------------------------*/
-
-/* Slideshow CSS */
+/* ------ CSS Slideshow  ------ */
 .Slideshow-container img {
     grid-column: 2/2;
     margin: auto;
@@ -280,6 +280,8 @@ nav a {
     }
 }
 
+/* ------------------Css Pantheon nav------------------ */
 
+/* ----------------------------------------------- */
 /* ------------------id's------------------ */
 

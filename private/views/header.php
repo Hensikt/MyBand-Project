@@ -28,7 +28,7 @@
                     <a class="nav-link" href="AboutUs">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pantheons</a>
+                    <a class="nav-link" href="Pantheons">Pantheons</a>
                 </li>
                 <li class="nav-item login">
                     <a class="nav-link" href="#">Login</a>
