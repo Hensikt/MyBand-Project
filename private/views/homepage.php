@@ -5,9 +5,8 @@
  * Date: 2019-05-17
  * Time: 09:14
  */
-
-$connection = dbConnect();
 ?>
+
 <div class="container">
     <div class="intro">
         <div class="tekst">
@@ -23,19 +22,8 @@ $connection = dbConnect();
 </div>
 <div class="CYP">
         <div class="Slideshow-container">
-            <?php
-            $sql = "SELECT * FROM `fotos` ORDER BY `id`";
-            $stmt = $connection->query($sql);
-            foreach ($stmt as $record) {
-                echo "<div class='mySlides fade'>" .
-                    "<img src='images/" . $record['name'] ."'>" .
-                    "<div class='text'>" . $record['text'] .
-                    "</div>" .
-                    "<div class='desc'>" . $record['About'] . "<a href='#'>" ." Lees meer ". "</a>" .
-                    "</div>" .
-                    "</div>";
-            }
-            ?>
+            <?php slideShow(); ?>
+
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>

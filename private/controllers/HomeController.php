@@ -10,10 +10,11 @@ class HomeController {
 
     function homepage(){
 
-        include __DIR__ . "/../includes/functions.php";
-        include __DIR__ . "/../views/header.php";
-        include __DIR__ . "/../views/homepage.php";
-        include __DIR__ . "/../views/footer.php";
+        require __DIR__ . "/../includes/functions.php";
+        require __DIR__ . "/../models/models.php";
+        require __DIR__ . "/../views/header.php";
+        require __DIR__ . "/../views/homepage.php";
+        require __DIR__ . "/../views/footer.php";
 
     }
 

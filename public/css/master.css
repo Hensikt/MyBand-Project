@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #dfd8bf;
+    background-color: #e3dac9;
 }
 
 body a {
@@ -27,7 +27,7 @@ nav a {
     color: black;
 }
 
-/* ------------------classes------------------ */
+/* ------------------ classes ------------------ */
 .container {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -94,8 +94,9 @@ nav a {
     height: 50vh;
     background-color: #e3dac9;
 }
+
 /* ------------------Css Contact------------------ */
-.Ab-contact{
+.Ab-contact {
     display: grid;
     border: black 1px solid;
     float: right;
@@ -105,18 +106,22 @@ nav a {
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-.Contact-container{
+
+.Contact-container {
     margin: auto 3em;
     grid-column: 3/3;
 }
-.About-Us{
+
+.About-Us {
     border: black 1px solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.description{
+
+.description {
     grid-column: 1/1;
 }
+
 /* ----------------------------------------------- */
 
 /* ------------------Css Navbar------------------ */
@@ -228,12 +233,14 @@ nav a {
     text-align: center;
     grid-row: 1/1;
 }
-.desc{
+
+.desc {
     grid-row: 2/2;
     grid-column: 2/2;
     text-align: center;
 }
-.desc{
+
+.desc {
     grid-row: 2/2;
     grid-column: 2/2;
     text-align: center;
@@ -281,7 +288,83 @@ nav a {
 }
 
 /* ------------------Css Pantheon nav------------------ */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #DFD8BF;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    width: 250px;
+    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+    text-align: center;
+}
 
-/* ----------------------------------------------- */
+/* The side content div */
+.content {
+    grid-row: 2/3;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    margin-right: 250px;
+    padding: 20px;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------Css Pantheon container------------------ */
+.background-image {
+    background: url("../images/About.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Pantheon-image {
+    display: grid;
+    background-color: grey;
+
+}
+
+.Pantheon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: beige;
+    border: 2px red solid;
+    border-top-right-radius: 800px 70% 40px;
+
+}
+
+/* ---------------------------------------------------------- */
+/* --------------------------------------------- */
 /* ------------------id's------------------ */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
 
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -11,7 +11,7 @@ class PantheonController{
     function Pantheons(){
 
         include __DIR__ . "/../includes/functions.php";
-        include __DIR__ . "/../views/header.php";
+        include __DIR__ . "/../views/header-s.php";
         include __DIR__ . "/../views/pantheon.php";
         include __DIR__ . "/../views/footer.php";
     }

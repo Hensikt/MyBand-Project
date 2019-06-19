@@ -6,8 +6,13 @@
  * Time: 11:14
  */
 ?>
-<div>
-
-
+<div id="main">
+    <div class="background-image">
+        <div class="Pantheon" style="width: 40%;">
+            <div class="Pantheon-image"><img src="" alt="Logo van Pantheon"></div>
+            <h3>Name of Pantheon</h3>
+            <p>Desc van Pantheon <a href="#">Lees meer..</a> </p>
+        </div>
+    </div>
 </div>
 
