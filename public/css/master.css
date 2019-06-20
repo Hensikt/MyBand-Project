@@ -349,12 +349,18 @@ nav a {
 .Pantheon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 7em);
     background-color: beige;
     border: 2px red solid;
-    border-top-right-radius: 800px 70% 40px;
-
 }
+.Pantheon h3{
+    grid-column: 1/2;
+}
+.Pantheon p{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
 
 /* ---------------------------------------------------------- */
 /* --------------------------------------------- */

@@ -64,7 +64,7 @@ function Contact()
             "<p class='C-info'>" . " Name: " . $record['name'] . "<br>"
             . " E-mail: " . $record['email'] . "<br>"
             . " Phonenumber: " . $record['number'] . "<br>"
-            . " Own Website: " . "<a href='" . $record['website'] . "'>" . $record['website'] . "</a>" . "</p>" .
+            . " Own Website: " . "<a target='_blank' href='" . $record['website'] . "'>" . $record['website'] . "</a>" . "</p>" .
             "</div>" .
             "</div>";
     endforeach;
