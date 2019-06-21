@@ -63,7 +63,7 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K3-W2 Link naar de live omgeving                        |  DONE |  <https://bjornemmaneel.nl> |
+| B1-K3-W2 Link naar de live omgeving                        |  DONE |  <http://bjornemmaneel.nl/MyBand-Project/public/home> |
 | B1-K3-W2 Gebruikersdocumentatie / instructie               |  DONE |  [Gebruikers documentatie] |
 | B1-K3-W3 Evaluatie                                         |  DONE |  [Evaluatie] |
 
