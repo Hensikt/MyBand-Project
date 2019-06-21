@@ -28,26 +28,6 @@ function get_info($id)
     return $desc;
 }
 
-function slideShow()
-{
-    $pdo = dbConnect();
-    $sql = "SELECT * FROM `fotos` ORDER BY `id`";
-
-    $slider = array();
-    $stmt = $pdo->query($sql) or die ('Sorry ik kan deze Query niet opvragen');
-
-    foreach ($stmt as $record):
-        $slider[] = $record;
-        echo "<div class='mySlides fade'>" .
-            "<img src='images/" . $record['name'] . "'>" .
-            "<div class='text'>" . $record['text'] .
-            "</div>" .
-            "<div class='desc'>" . $record['About'] . "<a href='#'>" . " Lees meer " . "</a>" .
-            "</div>" .
-            "</div>";
-    endforeach;
-}
-
 function Contact()
 {
 
@@ -68,12 +48,47 @@ function Contact()
             "</div>" .
             "</div>";
     endforeach;
-
 }
 
-function Pantheon()
+function slideShow()
+{
+    $pdo = dbConnect();
+    $sql = "SELECT * FROM `fotos` ORDER BY `id`";
+
+    $slider = array();
+    $stmt = $pdo->query($sql) or die ('Sorry ik kan deze Query niet opvragen');
+
+    foreach ($stmt as $record):
+        $slider[] = $record;
+        echo "<div class='mySlides fade'>" .
+            "<img src='images/" . $record['name'] . "'>" .
+            "<div class='text'>" . $record['text'] .
+            "</div>" .
+            "<div class='desc'>" . $record['About'] . "<a href='Pantheons'>" . " Lees meer " . "</a>" .
+            "</div>" .
+            "</div>";
+    endforeach;
+}
+
+function Pantheons()
 {
 
+    $pdo = dbConnect();
+    $sql = "SELECT * FROM `Pantheons` ORDER BY `id`";
 
+    $Gods = array();
+    $stmt = $pdo->query($sql) or die ('Sorry ik kan niet tot de goden doordringen');
+
+    foreach ($stmt as $record):
+        $Gods[] = $record;
+    echo "<div class='background-image'>" .
+            "<div class='Pantheon' style='width: 40%;'>" .
+              "<div class='Pantheon-image'>" . "<img src='images/" . $record['logo'] . "'" . "alt=" . $record['logo'] . ">" . "</div>" .
+              "<h3>" . $record['title'] . "</h3>" .
+              "<p>" . $record['descript'] . "<a href=" . $record['link'] . ">" . "<br>" ." Lees meer.." . "</a>" . "</p>" .
+            "</div>" .
+          "</div>";
+
+    endforeach;
 
 }

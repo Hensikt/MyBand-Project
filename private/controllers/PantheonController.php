@@ -10,10 +10,11 @@ class PantheonController{
 
     function Pantheons(){
 
-        include __DIR__ . "/../includes/functions.php";
-        include __DIR__ . "/../views/header-s.php";
-        include __DIR__ . "/../views/pantheon.php";
-        include __DIR__ . "/../views/footer.php";
+        require __DIR__ . "/../includes/functions.php";
+        require __DIR__ . "/../models/models.php";
+        require __DIR__ . "/../views/header-s.php";
+        require __DIR__ . "/../views/pantheon.php";
+        require __DIR__ . "/../views/footer.php";
     }
 
 }

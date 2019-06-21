@@ -338,23 +338,37 @@ nav a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: .5px solid black;
+    border-bottom-right-radius: 400px 190px;
+    border-top-right-radius: 400px 190px;
+    margin-bottom: 5px;
 }
 
 .Pantheon-image {
     display: grid;
-    background-color: grey;
+    width: 140px;
+    height: auto;
+    margin: auto;
+    background-color: #DFD8BF;
 
+}
+.Pantheon img{
+    width: 140px;
+    height: 140px;
 }
 
 .Pantheon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 7em);
+    grid-gap: 9px;
     background-color: beige;
-    border: 2px red solid;
+    border: 1px black solid;
+    padding-right: 1em;
 }
 .Pantheon h3{
     grid-column: 1/2;
+    text-align: center;
 }
 .Pantheon p{
     grid-column: 2/4;
