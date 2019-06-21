@@ -23,11 +23,11 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link | Type Document of cloudservice |
 | ------ |  ------ | ------ | ------ |
-| README                                            | Ongoing  | [README.md]  (dit document)          | MarkDown |
+| README                                            | Done | [README.md]  (dit document)          | MarkDown |
 | B1-K1-W1 Debriefing                               | Done | [Debriefing]                         | Markdown |
 | B1-K1-W2 Planning                                 | Done | [Planning]                           | Markdown |
 | B1-K1-W2 Plan van aanpak                          | Done | [Plan van Aanpak]                    | Markdown of Word/RTF|
-| B1-K1-W2 User stories                             | Ongoing | [User Stories]                       | Markdown of Word/RTF|
+| B1-K1-W2 User stories                             | Done | [User Stories]                       | Markdown of Word/RTF|
 | B1-K1-W2 Functioneel ontwerp                      | Done | [FO]                                 | Markdown of Word/RTF|
 | B1-K1-W2 Flowchart                                | Done | [Flow]                               | Afbeelding(en) of geexporteerd uit http://draw.io |
 | B1-K1-W2 Urenschatting                            | Done | [Urenschatting]                      | Markdown |
@@ -51,8 +51,8 @@ Deze fase duurt 3 weken
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
 | B1-K1-W2 Product backlog                          | DONE | [Backlog]                            | Link naar Trello met Sprint planningen | |
-| B1-K1-W2 Sprint planning 1, 2 en 3                | TODO | [Trello] / [Trello Tips]             | Link naar Trello met Sprint planningen | |
-| B1-K1-W3 Technisch Ontwerp                        | TODO | [TO]                                 | Markdown of Word/RTF| |
+| B1-K1-W2 Sprint planning 1, 2 en 3                | DONE | [Trello] / [Trello Tips]             | Link naar Trello met Sprint planningen | |
+| B1-K1-W3 Technisch Ontwerp                        | DONE | [TO]                                 | Markdown of Word/RTF| |
 
 [Backlog]: </doc/fase-2/technisch-ontwerp.md>
 [TO]: </doc/fase-2/technisch-ontwerp.md>
@@ -63,9 +63,9 @@ Deze fase duurt 3 weken
 
 | Milestone  | Status | Link |
 | ------ |  ------ | ------ |
-| B1-K3-W2 Link naar de live omgeving                        |  TODO |  <https://mijnliveomgeving.com> |
-| B1-K3-W2 Gebruikersdocumentatie / instructie               |  TODO |  [Gebruikers documentatie] |
-| B1-K3-W3 Evaluatie                                         |  TODO |  [Evaluatie] |
+| B1-K3-W2 Link naar de live omgeving                        |  DONE |  <https://bjornemmaneel.nl> |
+| B1-K3-W2 Gebruikersdocumentatie / instructie               |  DONE |  [Gebruikers documentatie] |
+| B1-K3-W3 Evaluatie                                         |  DONE |  [Evaluatie] |
 
 [Gebruikers documentatie]: <doc/fase-3/gebruikersdocumentatie.md>
 [Evaluatie]: <doc/fase-3/evaluatie.md>
